@@ -52,7 +52,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background-image: url('http://lucasdickey.com/images/bg-pattern-1.jpg')
+		background-image: url('http://lucasdickey.com/images/bg-pattern-1.jpg');
 		background-color: ##e0f4f6;
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
