@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+
+    <style>
+      a.test { font-weight: bold; }
+    </style>
+  </head>
+  <body>
+    <a href="http://jquery.com/">jQuery</a>
+    <script src="javascripts/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+	$("a").click(function(event){
+	  alert("In this case, the default has been prevented, so you don't go anywhere");
+	  event.preventDefault();
+	  $(this).hide("slow");
+	});
+	$("a").addClass("test");
+      });  
+    </script>
+  </body>
+</html>
