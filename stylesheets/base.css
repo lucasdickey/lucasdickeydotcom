@@ -53,16 +53,13 @@
 ================================================== */
 	body {
 		background-image: url('http://lucasdickey.com/images/bg-pattern-1.jpg');
+		background-color: #e0f4f6;
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
 
-	#top-contrast {
-		background: #e0f4f6;
-		height: 150px; 
-	}
 
 /* #Typography
 ================================================== */
